@@ -10,41 +10,37 @@
 <body>
 <!-- header -->
     <header>
-    <h1 class= "header">Samantha Lee</h1>
+    <h1 class= "name">Samantha Lee</h1>
     <p>About | Portfolio | Contact</p>
     </header>
-<div class=background>
+<!-- content  -->
+<section class=background>
 
     <div class="container">
-            
-                <h1 class="topic">Contact</h1>
-                <hr>
-                    
-                <section id="contact-form">
-                    <form action="/action_page.php" method="get" id="nameform">
-                        <label for="name">Name</label>
-                        <br>
-                        <input type="text" id="name" name="name" placeholder="John Smith"><br><br>
-                        <label for="email">Email</label>
-                        <br>
-                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                    </form>
-                    <br>
-                    <label for="message">Message</label>
-                    <br>
-                    <textarea id="message" rows="4" cols="50" form="nameform">
-                        </textarea><br><br>
-                    <button type="submit" form="nameform" value="Submit">Submit</button>
-            
-                </section>
-            
+        <h1 class="topic">Contact</h1>
+        <hr>
+<!-- form  -->
+        <section id="contact-form">
+            <form action="/action_page.php" method="get" id="nameform">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="John Smith"><br><br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            </form>
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" rows="4" cols="50" form="nameform">
+                </textarea><br><br>
+            <button type="submit" form="nameform" value="Submit">Submit</button>
+        </section>
     </div>
-
+</section> 
+<!-- footer  -->
         <footer>
             <p>Copyright &#169</p>
-        </footer>
-
-</div>    
-
+        </footer>   
 </body>
 </html>
