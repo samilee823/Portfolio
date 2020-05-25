@@ -14,22 +14,11 @@ body {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     margin: 0 auto 0 auto; 
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     padding-bottom: 20px;
 }
 
-h1{
-    font-size: 24px;
-    margin: 0px;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-
-h1.topic{
-    color: #4aaaa5;
-    margin: 20px;
-    padding-top: 20px;
-    clear:both;
-}
 /* header  */
 header{
     background-color: #ffffff;
@@ -75,6 +64,23 @@ a:hover{
     color: #4aaaa5; 
 }
 
+/* paragraph formatting */
+h1{
+    font-size: 24px;
+    margin: 0px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1.topic{
+    color: #4aaaa5;
+    margin: 20px;
+    padding-top: 20px;
+    clear:both;
+}
+
+hr {
+    width: 96%;
+}
 /* footer  */
 footer{
     clear: both;
@@ -126,52 +132,11 @@ button {
 }
 
 /* Portfolio */
-
 img {
-    background-color: #ffffff;
     display: block;
     height:200px; 
     width:64%; 
-    float:left; 
-    padding-top: 20px;
-}
-
-.hangman{
-    background-color: #ffffff;
-    position: relative;
-    float: left;
-    width:33%;
-}
-
-.rpg-game{
-    background-color: #ffffff;
-    position: relative;
-    float:left;
-    width:33%;
-}
-
-
-.trivia-game{
-    background-color: #ffffff;
-    position: relative;
-    float:left;
-    width:33%;
-    clear:both; 
-}
-
-.rutgers{
-    background-color: #ffffff;
-    position: relative;
-    float:left;
-    width:33%;
-}
-
-.rock-paper{
-    background-color: #ffffff;
-    position: relative;
-    float:left;
-    width:33%;
-    clear:both;
+    padding: 20px;
 }
 
 .text-block{
@@ -184,4 +149,43 @@ img {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     width: 57%;
     padding:10px; 
+    left: 20px; 
   }
+
+.hangman{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+.rpg-game{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+
+.trivia-game{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+    clear:both; 
+}
+
+.rutgers{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+}
+
+.rock-paper{
+    display: inline-block; 
+    background-color: #ffffff;
+    position: relative;
+    width:33%;
+    clear:both;
+}
